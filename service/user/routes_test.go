@@ -11,6 +11,8 @@ import (
 	"github.com/gorilla/mux"
 )
 
+//working with interface
+
 func TestUserServiceHandlers(t *testing.T) {
 	userStore := &mockUserStore{}
 	handler := NewHandler(userStore)
